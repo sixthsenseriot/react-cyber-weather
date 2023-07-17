@@ -147,9 +147,10 @@ export default function Weather() {
       <div className="container created-by-container">
         <p className="created-by">
           <a
-            href="/https://github.com/sixthsenseriot/cyber-weather-app"
+            href="/https://github.com/sixthsenseriot/react-cyber-weather"
             title="GitHub repository link"
             target="_blank"
+            rel="noopener noreferrer"
             className="code-link"
           >
             <u>Open-source code</u>
