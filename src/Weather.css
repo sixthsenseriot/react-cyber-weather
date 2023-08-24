@@ -101,14 +101,9 @@ h2.main-temp {
   position: relative;
   bottom: 10px;
 }
-a.fahrenheit-link,
-a.celsius-link {
+a.fahrenheit-link {
   color: black;
-}
-a.fahrenheit-link:hover,
-a.celsius-link:hover {
-  opacity: 0.6;
-  text-decoration: none;
+  pointer-events: none;
 }
 .vertical-line {
   border-left: 1px solid black;
