@@ -16,9 +16,7 @@ export default function WeatherInfo(props) {
         <p className="weather-date">
           <FormattedDate date={props.data.date} />
         </p>
-        <p className="weather-description text-capitalize">
-          {props.data.description}
-        </p>
+        <p className="weather-description">{props.data.description}</p>
 
         <div className="weather-container d-flex justify-content-center align-items-center">
           <div className="main-weather-icon">
