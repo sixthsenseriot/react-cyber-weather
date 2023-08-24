@@ -17,7 +17,31 @@ export default function WeatherForecast(props) {
         <div className="forecast-container d-flex justify-content-center">
           <div className="row">
             <div className="col forecast-col forecast-one text-center">
-              <WeatherForecastDay data={forecast[0]} />
+              <WeatherForecastDay data={forecast[1]} />
+            </div>
+            <div className="col line-container">
+              <div className="vert-line"></div>
+            </div>
+            <div className="col forecast-col forecast-two text-center">
+              <WeatherForecastDay data={forecast[2]} />
+            </div>
+            <div className="col line-container">
+              <div className="vert-line"></div>
+            </div>
+            <div className="col forecast-col forecast-three text-center">
+              <WeatherForecastDay data={forecast[3]} />
+            </div>
+            <div className="col line-container hide-line-small">
+              <div className="vert-line"></div>
+            </div>
+            <div className="col forecast-col forecast-four text-center">
+              <WeatherForecastDay data={forecast[4]} />
+            </div>
+            <div className="col line-container hide-line">
+              <div className="vert-line hide-line"></div>
+            </div>
+            <div className="col forecast-col forecast-five text-center">
+              <WeatherForecastDay data={forecast[5]} />
             </div>
           </div>
         </div>
