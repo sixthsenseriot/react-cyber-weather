@@ -42,7 +42,7 @@ form {
   display: flex;
 }
 input[type="text"] {
-  width: 506px;
+  width: 534px;
   outline: none;
   background-color: transparent;
   border: 2px solid black;
@@ -172,7 +172,7 @@ a.code-link:hover {
     max-width: 550px;
   }
   input[type="text"] {
-    width: 376px;
+    width: 400px;
   }
   .main-weather-icon {
     font-size: 70px;
@@ -211,7 +211,7 @@ a.code-link:hover {
     max-width: 320px;
   }
   input[type="text"] {
-    width: 146px;
+    width: 170px;
   }
   h2.city {
     font-size: 26px;
@@ -232,7 +232,7 @@ a.code-link:hover {
   }
   .forecast-day,
   .forecast-temp {
-    font-size: 8px;
+    font-size: 10px;
   }
   .temp-div {
     margin: 0 2px;

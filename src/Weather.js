@@ -55,9 +55,6 @@ export default function Weather(props) {
               <button className="mr-1" type="submit">
                 SEARCH
               </button>
-              <button type="button" className="location-button">
-                <i className="location-icon fa-solid fa-location-crosshairs"></i>
-              </button>
             </form>
           </div>
           <WeatherInfo data={weatherData} />
