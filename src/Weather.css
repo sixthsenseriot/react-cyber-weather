@@ -152,6 +152,7 @@ p.forecast-temp {
 .created-by-container {
   max-width: 680px;
   padding: 12px 0;
+  background-color: black;
 }
 .created-by {
   color: white;
@@ -291,5 +292,8 @@ a.code-link:hover {
   }
   .forecast-col {
     width: 45px;
+  }
+  .created-by {
+    font-size: 10px;
   }
 }

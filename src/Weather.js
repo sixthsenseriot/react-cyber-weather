@@ -72,7 +72,17 @@ export default function Weather(props) {
             >
               <u>Open-source code</u>
             </a>{" "}
-            by Khanh Nguyen
+            by Khanh Nguyen –{" "}
+            <a
+              href="https://cyberweather.netlify.app/"
+              title="Vanilla cyber weather app link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="code-link"
+            >
+              <u>Vanilla Cyber Weather App</u>
+            </a>{" "}
+            (more features)
           </p>
         </div>
       </div>
